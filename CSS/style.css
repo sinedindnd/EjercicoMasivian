@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  background-image: linear-gradient(to left, black, red, black);
+}
+
+header h1
+{
+  color: antiquewhite;
+  text-shadow: 2px 4px 5px rgba(50, 250, 10, .3);
+  text-transform: uppercase;
+  
+}
+
+.menu
+{
+  color: antiquewhite;
+  text-shadow: 2px 3px 5px rgba(50, 250, 10, .3);
+  font-size: 2em;
+}
+
+section
+{
+  display: flex;
+  height: 95vh;
+  background-color: rgb(244, 246, 246);
+}
+.img_roulette
+{
+  margin-top: 3rem;
+  width: 80%;
+  max-width: 50vw;
+  filter: grayscale(40%);
+  object-fit: cover; 
+}
+
+.img_roulette img
+{
+  width: 100%;
+  border-radius: 10%;
+  filter: drop-shadow(16px -16px 20px blue);
+  transform: rotate(90deg);
+}
+
+.betting_board
+{
+  margin: 1rem;
+  border: 3px solid tomato;
+  width: 100%;
+}
+
+.title_bets
+{
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-shadow: 3px 4px 4px rgba(250, 10, 100, .3);
+  text-align: center;
+  margin: 0;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bet_1
+{
+  margin-right: 2px;
+  margin-bottom: 2px;
+  border-radius: 7px;
+}
+
+.bet_1 input
+{
+  margin-left: 4px;
+  margin-bottom: .5rem;
+}
+
+.container .green
+{
+  background-color:green;
+  /* grid-template-columns: 1fr 100%; */
+}
+
+.container .black
+{
+  background-color:black;
+  color: antiquewhite;
+}
+
+.container .red
+{
+  background-color:red;
+  color: antiquewhite;
+}
+/*
+
+
+
+
+
+
+.bet_1 span
+{
+  position: relative;
+  top: 0;
+  left: 35%;
+  font-size: 1.3rem;
+}
+
+.betting_board
+{
+  height: 50vh;
+  width: 40vw;
+}
+
+
+
+.close_bets
+{
+  width: 100%;
+  padding: 1rem;
+  background-image: linear-gradient(to right, rgb(21, 167, 21) 50%, rgb(33, 211, 48) 100%);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:gray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.close_bets:hover
+{
+  color: whitesmoke;
+} */
+
+/* @media screen and (min-width: 360px)
+{
+
+    header
+  {
+    /* text-align: center; 
+    background-image: linear-gradient(to left, black, red, black);
+    /* color: antiquewhite; */
+    /* text-shadow: 3px 5px 3px rgba(50, 250, 10, .3); */
+    /* padding: 1rem; */
+    /* font-size: 1.7rem; 
+    width: 100vw;
+  }
+  
+  header h1
+  {
+    text-transform: uppercase;
+
+  }
+} */
